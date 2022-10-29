@@ -17,4 +17,9 @@ public class SecApplication {
 	public String root(){
 		return "APP_VERSION_0.1";
 	}
+
+	@GetMapping("/admin")
+	public String admin(){
+		return "admin";
+	}
 }
